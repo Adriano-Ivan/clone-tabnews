@@ -1,6 +1,6 @@
 
 function Home() {
-    return <h1>Aqui começa a construção de um sistema gigante ! teste</h1>
+    return <h1>E aí, meu amigo Yan ? Que acha de fazer deploy dos seus front-ends ?</h1>
 }
 
 export default Home;

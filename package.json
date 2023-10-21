@@ -4,7 +4,7 @@
   "description": "nodejs lts/hydrogen\r next@13.1.6\r react@18.2.0\r react-dom@18.2.0",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev -p 3002"
   },
   "dependencies": {
     "next": "^13.1.6",
