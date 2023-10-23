@@ -6,4 +6,8 @@ function Home() {
   );
 }
 
+function teste1() {
+  console.log("kdjkfdjdf");
+}
+
 export default Home;

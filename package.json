@@ -4,7 +4,9 @@
   "description": "nodejs lts/hydrogen\r next@13.1.6\r react@18.2.0\r react-dom@18.2.0",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev -p 3002"
+    "dev": "next dev -p 3002",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "dependencies": {
     "next": "^13.1.6",
@@ -12,5 +14,8 @@
     "react-dom": "^18.2.0"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
 }
